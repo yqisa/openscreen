@@ -1,0 +1,13 @@
+	<view class="advertise-hide" wx:if="{{item.id==btnclose&&close!=0}}" wx:for='{{ar}}'>
+		<view class="adertise-box">
+			<view class="guanbi-border" bindtap="closeHideHandle" data-wpygotourlhandle-a="{{item.id}}">
+				<view class="iconfont icon-guanbi fz-16 white-color"/>
+			</view>
+			<view catchtap="closeHideHandle" class="advertise" data-wpygotourlhandle-a="{{item.id}}" data-wpygotourlhandle-b="{{advertisingBanner.is_home}}" data-wpygotourlhandle-c="{{advertisingBanner.id}}" style="position:relative;">
+				<view class="white-color" style="font-size: 18rpx;line-height: 1;background: rgba(0,0,0,.1);padding: 4rpx 8rpx;position: absolute;right: 20rpx;top:15rpx;z-index: 222;border-radius: 4rpx">广告</view>
+        <navigator url="lotteryDetail?project_id={{item.loupanid}}&childId={{item.childId}}">
+				<image class="gray-bg" lazyLoad="true" mode="widthFix" src="{{item.indexbanner}}"/>
+        </navigator>
+			</view>
+		</view>
+	</view>

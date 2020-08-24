@@ -1,0 +1,75 @@
+.advertise-hide {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .adertise-box {
+    width: 90%;
+    position: relative;
+    border-radius: 10px;
+    top: -70rpx;
+  }
+  /* .adertise-box {
+  width: 460rpx;
+  height: 818rpx;
+  margin-top: 0rpx;
+  position:relative
+  } */
+  
+  .advertise-hide .advertise {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+  }
+  .guanbi-border {
+    width: 55rpx;
+    height: 55rpx;
+    border: 1rpx solid #fff;
+    border-radius: 55rpx;
+    line-height: 40rpx;
+    text-align: center;
+    position: absolute;
+    bottom: -90rpx;
+    z-index: 222;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  .icon-guanbi {
+    padding: 9rpx;
+  }
+  .advertise {
+    /* border-radius: 20rpx; */
+    position: relative;
+    z-index: 223;
+    overflow: hidden;
+  }
+  .advertise image {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .select-title {
+    padding: 30rpx;
+    display: -webkit-box;
+    -webkit-box-align: flex-end;
+    -webkit-box-pack: justify;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    line-height: 1;
+  }
+  .select-title > text {
+    font-weight: bold;
+  }
+  .white-color {
+    color: #fff !important;
+}
+    
